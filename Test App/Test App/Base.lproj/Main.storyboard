@@ -111,7 +111,11 @@
                             <constraint firstItem="0D1-Ki-Lec" firstAttribute="top" secondItem="VdT-cj-YWa" secondAttribute="top" id="rQv-wO-FDc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Ex Tables" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="2 Ex Tables" image="second" id="cPa-gy-q4n">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="2ExTablesTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="5lu-d5-9Qj" id="pE9-l3-aEC"/>
                         <outlet property="rightTable" destination="g8k-tZ-ufI" id="gkZ-T6-4hV"/>
@@ -189,7 +193,11 @@
                             <constraint firstItem="VAN-G0-KnE" firstAttribute="leading" secondItem="eya-Fi-6IZ" secondAttribute="leading" id="MDV-on-xdc"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Ex Re Tables" image="second" id="m3l-eg-V41"/>
+                    <tabBarItem key="tabBarItem" title="2 Ex Re Tables" image="second" id="m3l-eg-V41">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="2ExReTablesTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="OYZ-nt-F6Z" id="Ilt-hQ-U7X"/>
                         <outlet property="rightTable" destination="mx6-zX-mw4" id="1UZ-iH-TRe"/>
@@ -243,7 +251,11 @@
                             <constraint firstItem="Noy-cd-TWT" firstAttribute="trailing" secondItem="nEQ-yh-R93" secondAttribute="trailing" id="Yt4-2g-6uX"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Table to Re Table" image="second" id="WuQ-wE-kc6"/>
+                    <tabBarItem key="tabBarItem" title="Table to Re Table" image="second" id="WuQ-wE-kc6">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="tableToReTableTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="6Yy-M8-N5L" id="6KF-Fz-5f0"/>
                         <outlet property="rightTable" destination="lk1-bS-pcH" id="27q-5e-lXM"/>
@@ -367,7 +379,11 @@
                             <constraint firstItem="Rfh-yK-PJc" firstAttribute="top" secondItem="gQU-rz-p9o" secondAttribute="top" id="goL-6P-KTD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="UQe-FS-hoH"/>
+                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="UQe-FS-hoH">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="2ReTablesTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="aVD-1u-ux7" id="FXP-ZX-vPa"/>
                         <outlet property="rightTable" destination="R37-MS-IlP" id="r4X-ub-8SZ"/>
@@ -461,7 +477,11 @@
                             <constraint firstItem="GvH-cY-FgZ" firstAttribute="top" secondItem="Em8-gK-J2J" secondAttribute="top" id="zJ5-nh-hVK"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Ex Collections" image="first" id="pL5-ht-eIY"/>
+                    <tabBarItem key="tabBarItem" title="2 Ex Collections" image="first" id="pL5-ht-eIY">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="2ExCollectionsTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftCollection" destination="BOJ-qQ-ACh" id="ACl-5u-kdO"/>
                         <outlet property="rightCollection" destination="FX0-0R-YWl" id="PYa-bA-pog"/>
@@ -555,7 +575,11 @@
                             <constraint firstItem="a02-kk-5hq" firstAttribute="trailing" secondItem="AbL-gp-d4v" secondAttribute="trailing" id="yOj-Bl-5LA"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Col 2 Re Col" image="first" id="bfa-KP-ZHV"/>
+                    <tabBarItem key="tabBarItem" title="Col 2 Re Col" image="first" id="bfa-KP-ZHV">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="col2ReColTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftCollection" destination="iX2-Mk-bPT" id="JXV-56-uLa"/>
                         <outlet property="rightCollection" destination="WGk-ec-L8j" id="EAj-az-dNz"/>
@@ -633,7 +657,11 @@
                             <constraint firstItem="6bz-oa-jdt" firstAttribute="trailing" secondItem="OQL-Nn-RE0" secondAttribute="trailing" id="zVO-Xm-xQa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Paint Me!" image="first" id="WBK-lE-odP"/>
+                    <tabBarItem key="tabBarItem" title="Paint Me!" image="first" id="WBK-lE-odP">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="paintMeTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftCollection" destination="egF-tG-Tuq" id="J9C-0X-krb"/>
                         <outlet property="rightTable" destination="CBA-TY-yKJ" id="6a0-q5-Ibj"/>
