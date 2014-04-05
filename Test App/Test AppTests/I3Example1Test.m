@@ -23,6 +23,8 @@
 
 -(void) testSrcIsRearrangeable{
 
+    
+    
 }
 
 -(void) testDstIsRearrangeable{
@@ -39,17 +41,6 @@
 
 -(void) testSrcCellsCannotBeDraggedOustideOfTable{
 
-}
-
--(void) testAllCellsAreDraggable{
-
-}
-
--(void) testAllCellsAreRearrangeable{
-
-}
-
--(void) testNoCellsAreExchangeable{
 }
 
 -(void) testDstCellsCannotBeDraggedOustideOfTable{
