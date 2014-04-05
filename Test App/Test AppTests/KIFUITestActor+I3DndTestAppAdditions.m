@@ -8,44 +8,41 @@
 
 #import "KIFUITestActor+I3DndTestAppAdditions.h"
 
+
+
 @implementation KIFUITestActor (I3DndTestAppAdditions)
 
 
-
--(void) navigateToExampleCase1{
-
-}
-
-
--(void) navigateToExampleCase2{
+-(NSArray*) testCaseToAccessibillityMap{
     
+    return @[
+             @"2ReTablesTabButton",
+             @"2ExTablesTabButton",
+             @"2ReExTablesTabButton",
+             @"tableToReTableTabButton",
+             @"2ExCollectionsTabButton",
+             @"col2ReColTabButtonTabButton",
+             @"paintMeTabButton",
+             ];
 }
 
 
--(void) navigateToExampleCase3{
+-(void) navigateToExampleCaseNumber:(NSInteger) testCaseNumber{
+
+    --testCaseNumber;
     
-}
-
-
--(void) navigateToExampleCase4{
+    /** Check that the test case number exists as an example case */
     
-}
-
-
--(void) navigateToExampleCase5{
+    if(testCaseNumber < 0 || testCaseNumber >= self.testCaseToAccessibillityMap.count){
+        
+        [NSException raise:@"KIFUITestActor(I3DndTestAppAdditions)InvalidExampleCase"
+                    format:@"Example case number %ld does not exist or is not in the text case map",
+                            testCaseNumber];
+    }
     
+    NSString* tabButtonAccessibillityLabel = self.testCaseToAccessibillityMap[testCaseNumber];
+    [self tapViewWithAccessibilityLabel:tabButtonAccessibillityLabel];
 }
 
 
--(void) navigateToExampleCase6{
-    
-}
-
-
--(void) navigateToExampleCase7{
-    
-}
-
-
-
-@end
+ @end

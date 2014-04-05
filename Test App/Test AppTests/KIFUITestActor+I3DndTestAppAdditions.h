@@ -10,17 +10,23 @@
 
 @interface KIFUITestActor (I3DndTestAppAdditions)
 
-/**
- *  Helper additional methods for navigating between the current test 
- *  cases.
- */
 
--(void) navigateToExampleCase1;
--(void) navigateToExampleCase2;
--(void) navigateToExampleCase3;
--(void) navigateToExampleCase4;
--(void) navigateToExampleCase5;
--(void) navigateToExampleCase6;
--(void) navigateToExampleCase7;
+/**
+ *  Helper additional method for navigating between the current test
+ *  cases.
+ *  Takes the example case number as a parameter.
+ */
+-(void) navigateToExampleCaseNumber:(NSInteger) testCaseNumber;
+
+/**
+ *  An array of the Example Cases' tab button accessabillity labels. The
+ *  index of the table represents its test case number - 1, for example
+ *  at index 0, there will be the accessibillity label for the tab button
+ *  for Example Case 1.
+ *  You can pass this number to navigateToExampleCaseNumber: to navigate
+ *  to that example case.
+ */
+@property (nonatomic, readonly, strong) NSArray* testCaseToAccessibillityMap;
+
 
 @end
