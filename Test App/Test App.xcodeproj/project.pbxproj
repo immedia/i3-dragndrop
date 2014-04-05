@@ -15,6 +15,7 @@
 		463C550D18F0A0260006C7ED /* I3UnrarranreableToRearrangeableCollectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463C550418F0A0260006C7ED /* I3UnrarranreableToRearrangeableCollectionsViewController.m */; };
 		463C550E18F0A0260006C7ED /* I3CollectionToRearrangeableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463C550718F0A0260006C7ED /* I3CollectionToRearrangeableTableViewController.m */; };
 		463C551118F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 463C551018F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m */; };
+		463C551418F0AC1E0006C7ED /* I3Example1Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 463C551318F0AC1E0006C7ED /* I3Example1Test.m */; };
 		46EF0542184FCB8D00B597AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF0541184FCB8D00B597AB /* Foundation.framework */; };
 		46EF0544184FCB8D00B597AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF0543184FCB8D00B597AB /* CoreGraphics.framework */; };
 		46EF0546184FCB8D00B597AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF0545184FCB8D00B597AB /* UIKit.framework */; };
@@ -59,6 +60,8 @@
 		463C550718F0A0260006C7ED /* I3CollectionToRearrangeableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I3CollectionToRearrangeableTableViewController.m; sourceTree = "<group>"; };
 		463C550F18F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFUITestActor+I3DndTestAppAdditions.h"; sourceTree = "<group>"; };
 		463C551018F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFUITestActor+I3DndTestAppAdditions.m"; sourceTree = "<group>"; };
+		463C551218F0AC1E0006C7ED /* I3Example1Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = I3Example1Test.h; sourceTree = "<group>"; };
+		463C551318F0AC1E0006C7ED /* I3Example1Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = I3Example1Test.m; sourceTree = "<group>"; };
 		46EF053E184FCB8D00B597AB /* Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46EF0541184FCB8D00B597AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		46EF0543184FCB8D00B597AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -246,6 +249,8 @@
 			children = (
 				463C550F18F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.h */,
 				463C551018F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m */,
+				463C551218F0AC1E0006C7ED /* I3Example1Test.h */,
+				463C551318F0AC1E0006C7ED /* I3Example1Test.m */,
 				46EF056F184FCB8D00B597AB /* Test_AppTests.m */,
 				46EF056A184FCB8D00B597AB /* Supporting Files */,
 			);
@@ -422,6 +427,7 @@
 			files = (
 				46EF0570184FCB8D00B597AB /* Test_AppTests.m in Sources */,
 				463C551118F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m in Sources */,
+				463C551418F0AC1E0006C7ED /* I3Example1Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
