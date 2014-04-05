@@ -1,0 +1,12 @@
+PODS:
+  - KIF (3.0.0):
+    - KIF/XCTest
+  - KIF/XCTest (3.0.0)
+
+DEPENDENCIES:
+  - KIF (~> 3.0)
+
+SPEC CHECKSUMS:
+  KIF: 33a866cef6b6d0a58aa1b0b3f08ca8bd53319314
+
+COCOAPODS: 0.31.1
