@@ -28,7 +28,6 @@
 		46EF0565184FCB8D00B597AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF0541184FCB8D00B597AB /* Foundation.framework */; };
 		46EF0566184FCB8D00B597AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46EF0545184FCB8D00B597AB /* UIKit.framework */; };
 		46EF056E184FCB8D00B597AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46EF056C184FCB8D00B597AB /* InfoPlist.strings */; };
-		46EF0570184FCB8D00B597AB /* Test_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EF056F184FCB8D00B597AB /* Test_AppTests.m */; };
 		46EF057C184FCF0400B597AB /* I3DragBetweenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EF057B184FCF0400B597AB /* I3DragBetweenHelper.m */; };
 		FCC22BE3D9F04B7D9C9DD524 /* libPods-Test AppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBF936C15F9642769C36A003 /* libPods-Test AppTests.a */; };
 /* End PBXBuildFile section */
@@ -78,7 +77,6 @@
 		46EF0563184FCB8D00B597AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		46EF056B184FCB8D00B597AB /* Test AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test AppTests-Info.plist"; sourceTree = "<group>"; };
 		46EF056D184FCB8D00B597AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		46EF056F184FCB8D00B597AB /* Test_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_AppTests.m; sourceTree = "<group>"; };
 		46EF057A184FCF0400B597AB /* I3DragBetweenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = I3DragBetweenHelper.h; path = ../../Classes/I3DragBetweenHelper.h; sourceTree = "<group>"; };
 		46EF057B184FCF0400B597AB /* I3DragBetweenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = I3DragBetweenHelper.m; path = ../../Classes/I3DragBetweenHelper.m; sourceTree = "<group>"; };
 		69A932BF3DA14709BC96A28B /* Pods-Test AppTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test AppTests.xcconfig"; path = "Pods/Pods-Test AppTests.xcconfig"; sourceTree = "<group>"; };
@@ -251,7 +249,6 @@
 				463C551018F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m */,
 				463C551218F0AC1E0006C7ED /* I3Example1Test.h */,
 				463C551318F0AC1E0006C7ED /* I3Example1Test.m */,
-				46EF056F184FCB8D00B597AB /* Test_AppTests.m */,
 				46EF056A184FCB8D00B597AB /* Supporting Files */,
 			);
 			path = "Test AppTests";
@@ -425,7 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EF0570184FCB8D00B597AB /* Test_AppTests.m in Sources */,
 				463C551118F0A19A0006C7ED /* KIFUITestActor+I3DndTestAppAdditions.m in Sources */,
 				463C551418F0AC1E0006C7ED /* I3Example1Test.m in Sources */,
 			);

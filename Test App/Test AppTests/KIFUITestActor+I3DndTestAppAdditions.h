@@ -8,8 +8,34 @@
 
 #import "KIFUITestActor.h"
 
+
 @interface KIFUITestActor (I3DndTestAppAdditions)
 
+
+/**
+ *  Test step methods for initiating dragging cells between tables and
+ *  collections.
+ */
+
+-(void) dragCellInTableViewWithAccessibilityLabel:(NSString*) fromLabel
+                                      atIndexPath:(NSIndexPath*) from
+                toTableViewWithAccessibilityLabel:(NSString*) toLabel
+                                      atIndexPath:(NSIndexPath*) to;
+
+-(void) dragCellInTableViewWithAccessibilityLabel:(NSString*) fromLabel
+                                      atIndexPath:(NSIndexPath*) from
+           toCollectionViewWithAccessibilityLabel:(NSString*) toLabel
+                                      atIndexPath:(NSIndexPath*) to;
+
+-(void) dragCellInCollectionViewWithAccessibilityLabel:(NSString*) fromLabel
+                                           atIndexPath:(NSIndexPath*) from
+                     toTableViewWithAccessibilityLabel:(NSString*) toLabel
+                                           atIndexPath:(NSIndexPath*) to;
+
+-(void) dragCellInCollectionViewWithAccessibilityLabel:(NSString*) fromLabel
+                                           atIndexPath:(NSIndexPath*) from
+                toCollectionViewWithAccessibilityLabel:(NSString*) toLabel
+                                           atIndexPath:(NSIndexPath*) to;
 
 /**
  *  Helper additional method for navigating between the current test
@@ -17,6 +43,7 @@
  *  Takes the example case number as a parameter.
  */
 -(void) navigateToExampleCaseNumber:(NSInteger) testCaseNumber;
+
 
 /**
  *  An array of the Example Cases' tab button accessabillity labels. The

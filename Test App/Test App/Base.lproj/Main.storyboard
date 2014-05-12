@@ -32,6 +32,9 @@
                                 <rect key="frame" x="0.0" y="44" width="366" height="932"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="srcTable"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="YKj-fy-GiU"/>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="tWq-B3-F4x"/>
@@ -41,6 +44,9 @@
                                 <rect key="frame" x="392" y="44" width="376" height="932"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="dstTable"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="9pv-A4-QxB" id="gu3-fR-aYA"/>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="5ea-WP-dUk"/>
@@ -57,7 +63,11 @@
                             <constraint firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="20" symbolic="YES" id="iui-m3-cBD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="Rh1-iZ-Ygb"/>
+                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="Rh1-iZ-Ygb">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="2ReTablesTabButton"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="Vjh-ou-3fG" id="p9T-Vo-qqa"/>
                         <outlet property="rightTable" destination="OHO-f4-OHC" id="LZj-rf-iaI"/>
@@ -317,7 +327,12 @@
                             <constraint firstItem="Ets-DI-zzk" firstAttribute="trailing" secondItem="FxC-eo-MaH" secondAttribute="trailing" id="wNM-3N-TZ7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="Kzc-fu-5Bv"/>
+                    <tabBarItem key="tabBarItem" title="2 Re Tables" image="first" id="Kzc-fu-5Bv">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibility1" value="2ReTablesTabButton"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityTraits" value="UIAccessibilityTraitButton" localized="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                     <connections>
                         <outlet property="leftTable" destination="2IB-BS-Nia" id="iE9-by-avE"/>
                         <outlet property="rightTable" destination="xj6-pm-mtm" id="zso-gc-Cnz"/>
@@ -354,6 +369,9 @@
                                 <rect key="frame" x="0.0" y="44" width="366" height="932"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="srcTable"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="hi0-hp-pxi" id="Nye-g7-pHv"/>
                                     <outlet property="delegate" destination="hi0-hp-pxi" id="uwF-qS-DzX"/>
@@ -363,6 +381,9 @@
                                 <rect key="frame" x="392" y="44" width="376" height="932"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityLabel" value="dstTable"/>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="dataSource" destination="hi0-hp-pxi" id="sXn-YC-WxF"/>
                                     <outlet property="delegate" destination="hi0-hp-pxi" id="bZ4-4u-PWg"/>

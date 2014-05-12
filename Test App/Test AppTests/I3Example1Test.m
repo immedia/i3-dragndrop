@@ -23,7 +23,13 @@
 
 -(void) testSrcIsRearrangeable{
 
+    NSIndexPath* from = [NSIndexPath indexPathForRow:0 inSection:0];
+    NSIndexPath* to = [NSIndexPath indexPathForRow:0 inSection:0];
     
+    [tester dragCellInTableViewWithAccessibilityLabel:@"srcTable"
+                                          atIndexPath:from
+                    toTableViewWithAccessibilityLabel:@"srcTable"
+                                          atIndexPath:to];
     
 }
 
