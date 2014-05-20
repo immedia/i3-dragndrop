@@ -573,7 +573,9 @@
         NSLog(@"Dragging from source to source.");
         
         /* Dragged from the source to the source */
-        
+        if([self.delegate respondsToSelector:@selector(didViewLandBackOnSource:)]){
+            [self.delegate didViewLandBackOnSource:YES];
+        }
         [self handleDragFromSrcStoppedInSrcAtPoint:positionInSrc];
     }
     else if(self.isDraggingFromSrcCollection

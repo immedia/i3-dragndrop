@@ -15,6 +15,7 @@
 
 @optional
 
+- (void)didViewLandBackOnSource:(BOOL)didLandBackOnSouce;
 
 /** Called when the dragging view has been dropped nowhere and the
      snap-back animation has ended. */
